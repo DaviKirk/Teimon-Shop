@@ -65,7 +65,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
                 // echo '<pre>';
                 // print_r($carrinho);
                 // echo '</pre>';
-
+            
                 for ($i = $iteracao; $i >= 0; $i--) {
 
                     $id = $carrinho[$i]['id'];
@@ -102,7 +102,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
     ?>
     <form class="clearCarrinho" method="POST">
         <input type="hidden" name="Clear" value="ClearCart">
-        <button type="submit" class="btnADD"> Clear to cart</button>
+        <button type="submit" class="btnADD">clean the cart</button>
     </form>
 
 </body>

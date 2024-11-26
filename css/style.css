@@ -87,7 +87,7 @@ nav {
 .produto {
     border: 1px solid black;
     width: 210px;
-    height: 350px;
+    height: 380px;
     padding: 5px;
     text-align: center;
     background-color: #f7d26d;
@@ -142,6 +142,7 @@ footer {
 
 .descProduto {
     font-family: "Roboto Condensed", 'sans-serif';
+    padding-top: 8px;
 }
 
 .cartVazio {
