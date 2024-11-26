@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Vibur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Vibur&display=swap');
+
+* {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.btnCarrinho {
+    font-family: 'Rubik', 'sans-serif';
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.btnCarrinho:hover {
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: #2d3646;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #f8c63c;
+    width: 100%;
+}
+
+.cabecalho {
+    display: flex;
+    margin-left: 15%;
+    align-items: center;
+    font-size: 30px;
+    /* background-image: url('/img/Teimos_Shop.webp'); */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+nav {
+    height: 55px;
+    background-color: #0000cd;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+.imgLogo {
+    width: 100px;
+    height: 100px;
+    margin: 40px;
+}
+
+.tittleLogo {
+    color: red;
+    font-family: 'Rubik', 'sans-serif';
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.shop {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+    width: 50%;
+    margin-left: 20px;
+}
+
+.produto {
+    border: 1px solid black;
+    width: 210px;
+    height: 350px;
+    padding: 5px;
+    text-align: center;
+    background-color: #f7d26d;
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+
+.imgProduto {
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+
+}
+
+.btnADD {
+    margin: 10px;
+    font-family: 'Rubik', 'sans-serif';
+    font-size: 15px;
+    width: 170px;
+    height: 40px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+.btnADD:hover {
+    background-color: #acacac;
+    border-radius: 3px;
+    width: 172px;
+    height: 42px;
+}
+
+.tituloProduto {
+    color: #331d00;
+    font-family: 'Rubik', 'sans-serif';
+}
+
+.divImg {
+    background-color: rgb(34, 34, 34);
+}
+
+footer {
+    margin-top: 50px;
+    width: 100%;
+    height: 200px;
+    background-color: #f8c63c;
+    align-items: center;
+    display: flex;
+}
+
+.descProduto {
+    font-family: "Roboto Condensed", 'sans-serif';
+}
+
+.cartVazio {
+    color: #ffffff;
+    font-family: 'Rubik', 'sans-serif';
+    text-align: center;
+}
+
+.clearCarrinho {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.LoginInput {
+    margin-bottom: 30px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+}
+
+.loginContainer {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100vh;
+}
+
+.formLogin {
+    height: 350px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    border: 1 solid beige;
+    background-color: #f8c63c;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+span {
+    color: aliceblue;
+    font-family: "Roboto Condensed", 'sans-serif';
+}
+
+.imgLogin {
+    width: 100px;
+}
+.tittleLogin{
+    color: aliceblue;
+    font-family: 'Rubik', 'sans-serif';
+    font-size: 30px;
+    margin-bottom: 15px;
+}
